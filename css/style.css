@@ -98,7 +98,7 @@ header {
 }
 
     .container.hero.hero-img {
-        background-image: url(/img/hero-img.jpg);
+        background-image: url(../img/hero-img.jpg);
         background-size: cover;
         background-position: center bottom;
         background-attachment: fixed;
@@ -174,7 +174,7 @@ header {
 }
 
 .section-gallery .gallery-1 {
-    background-image: url(/img/photo-3.webp);
+    background-image: url(../img/photo-3.webp);
     background-size: cover;
     height: 565px;
     width: 30%;
@@ -182,7 +182,7 @@ header {
 }
 
 .section-gallery .gallery-2 {
-    background-image: url(/img/photo-1.webp);
+    background-image: url(../img/photo-1.webp);
     background-size: cover;
     height: 565px;
     width: 30%;
@@ -190,7 +190,7 @@ header {
 }
 
 .section-gallery .gallery-3 {
-    background-image: url(/img/photo-2.webp);
+    background-image: url(../img/photo-2.webp);
     background-size: cover;
     height: 565px;
     width: 30%;
@@ -322,7 +322,7 @@ header {
 .section-fourth {
     font-family: 'Open Sans Condensed', sans-serif;
     position: relative;
-    background-image: url(/img/background-fourth.webp);
+    background-image: url(../img/background-fourth.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
