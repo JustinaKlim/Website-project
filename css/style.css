@@ -86,11 +86,6 @@ header {
                 padding: 0;
             }
 
-
-
-
-
-
 /*HERO SECTION*/
 
 .hero {
@@ -107,6 +102,7 @@ header {
     .hero > img {
         display: inline-block;
         height: 100px;
+        margin-top: 140px;
     }
 
     .hero > span {
@@ -115,7 +111,7 @@ header {
         line-height: 15px;
         text-transform: uppercase;
         color: #fff;
-        margin-top: 50px;
+        margin-top: 180px;
         letter-spacing: 4px;
         border-bottom: 2px solid #fff;
         padding-bottom: 8px;
@@ -148,7 +144,7 @@ header {
         line-height: 10px;
         color: #fff;
         padding: 15px 50px;
-        margin-top: 80px;
+        margin: 80px 0;
     }
 
         .hero > a,
