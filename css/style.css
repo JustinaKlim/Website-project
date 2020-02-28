@@ -20,6 +20,9 @@ header {
     height: 60px;
     width: 100%;
     font-family: 'Oswald', sans-serif;
+    position: fixed;
+    top: 0;
+    z-index: 1;
 }
 
     nav {
@@ -149,12 +152,14 @@ header {
     }
 
         .hero > a,
-        .section-column > a {
+        .section-column > a,
+        form > a {
             text-decoration: none;
         }
 
         .hero > .btn:hover,
-        .text > .btn:hover {
+        .text > .btn:hover,
+        form > .btn:hover {
             background-color: #b89a91;
             transition: 1s;
         }
@@ -312,7 +317,39 @@ header {
                     color: #A86550;
                 }
 
-                
+/*SECTION-FOURTH*/
+
+.section-fourth {
+    font-family: 'Open Sans Condensed', sans-serif;
+    position: relative;
+    background-image: url(/img/background-fourth.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+    .section-fourth > h4 {
+        font-size: 20px;
+        line-height: 20px;
+        color: #A86550;
+        text-transform: uppercase;
+        font-weight: 300;
+        letter-spacing: 6px;
+        margin-top: 50px;
+    }
+
+    .section-fourth .border {
+        top: 180px;
+    }
+
+    .section-fourth .btn {
+        margin: 0;
+        width: 100%;
+        text-align: center;
+    }
+    
+    
+
 
 
 
