@@ -1,0 +1,60 @@
+form {
+    width: 60%;
+    display: inline-block;
+    margin-top: 80px;
+    text-align: left;
+}
+
+.form-row {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+    label {
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 10px;
+        text-transform: capitalize;
+        color: #2f2f30;
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    input {
+        display: inline-block;
+        width: 100%;
+        border: 1px solid #000;
+        color: #333;
+        font-size: 14px;
+        line-height: 30px;
+        padding-left: 12px;
+    }
+
+        input:hover {
+            border: 2px solid #000;
+        }
+
+    form > .name,
+    form > .email {
+        display: inline-block;
+        float: left;
+        width: 48%;
+    }
+
+    form > .name {
+        margin-right: 2%;
+    } 
+
+    form > .email {
+        margin-left: 2%;
+    } 
+
+        ::placeholder {
+            font-size: 14px;
+            color: rgb(160, 160, 160);
+        }
+
+        .form-row > .message {
+            height: 150px;
+        }
