@@ -138,7 +138,7 @@ header {
         
     }
 
-    .hero > .btn {
+    .btn {
         display: inline-block;
         background-color: #a86550;
         font-size: 18px;
@@ -148,11 +148,13 @@ header {
         margin-top: 80px;
     }
 
-        .hero > a {
+        .hero > a,
+        .section-column > a {
             text-decoration: none;
         }
 
-        .hero > .btn:hover {
+        .hero > .btn:hover,
+        .text > .btn:hover {
             background-color: #b89a91;
             transition: 1s;
         }
@@ -236,31 +238,81 @@ header {
 .section-third {
     background-color: #fff;
     padding: 0;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
     .section-third .section-row {
-        background-color: lawngreen;
+        display: inline-block;
+        float: left;
         width: 100%;
-        height: 50%;
+        height: 450px;
+    }
+
+    .section-third .row-second {
+        height: 700px;
     }
 
         .section-third .section-column {
             display: inline-block;
-            background-color: red;
+            float: left;
+            position: relative;
             width: 50%;
-            height: 100%;
         }
 
-        .img {
-            display: inline-block;
-            float: right;
-            background-image: url(/img/hero-img.jpg);
-            background-size: cover;
-            
-            height: 400px;
-        }
+            .section-row .img-2 > img {
+                display: inline-block;
+                float: left;
+                height: 450px;
+                width: 50%;
+                object-fit: cover;
+            }
 
+            .section-row .img-1 > img {
+                display: inline-block;
+                float: left;
+                height: 700px;
+                width: 100%;
+                object-fit: cover;
+            }
 
+            .section-row .text {
+                padding: 60px;
+            }
+
+            .section-row.row-second {
+                height: 700px;
+                background-color: rgb(0, 46, 49);
+            }
+
+                .section-column > h4 {
+                    font-size: 18px;
+                    line-height: 20px;
+                    color: #A86550;
+                    text-transform: uppercase;
+                    font-weight: 300;
+                    letter-spacing: 6px;
+                    margin-bottom: 50px;
+                }
+
+                .section-column > p {
+                    font-size: 15px;
+                    line-height: 1.5;
+                    color: #A86550;
+                    font-weight: 200;
+                    letter-spacing: 2px;
+                }
+
+                .section-column .border {
+                    top: 115px;
+                }
+
+                .section-column h5 {
+                    font-size: 98px;
+                    font-weight: 700;
+                    color: #A86550;
+                }
+
+                
 
 
 
