@@ -92,10 +92,10 @@ header {
     font-family: 'Open Sans Condensed', sans-serif;
 }
 
-    .container.hero.hero-img {
+    .hero-img {
         background-image: url(../img/hero-img.jpg);
         background-size: cover;
-        background-position: center bottom;
+        background-position: center center;
         background-attachment: fixed;
     }
 
@@ -169,28 +169,31 @@ header {
     font-family: 'Open Sans Condensed', sans-serif;
 }
 
-.section-gallery .gallery-1 {
-    background-image: url(../img/photo-3.webp);
+.section-gallery .gallery-1,
+.section-gallery .gallery-2,
+.section-gallery .gallery-3 {
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #fff;
     height: 565px;
     width: 30%;
     position: relative;
+}
+
+.section-gallery .gallery-1 {
+    background-image: url(../img/photo-1.jpg);
+    
 }
 
 .section-gallery .gallery-2 {
-    background-image: url(../img/photo-1.webp);
-    background-size: cover;
-    height: 565px;
-    width: 30%;
-    position: relative;
+    background-image: url(../img/photo-2.jpg);
+    
 }
 
 .section-gallery .gallery-3 {
-    background-image: url(../img/photo-2.webp);
-    background-size: cover;
-    height: 565px;
-    width: 30%;
-    position: relative;
+    background-image: url(../img/photo-3.jpg);
+    
 }
 
     a.h2 {
@@ -324,7 +327,7 @@ header {
 .section-fourth {
     font-family: 'Spartan', sans-serif;
     position: relative;
-    background-image: url(../img/background-fourth.webp);
+    background-image: url(../img/leaf.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
